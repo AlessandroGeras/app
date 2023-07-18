@@ -27,7 +27,7 @@ const GetApi: React.FC<{ selectedSortOption: 'top_rated' | 'popular' | 'upcoming
   const api_image = "https://image.tmdb.org/t/p/original";
 
   useEffect(() => {
-    const api_key = `api_key=${process.env.NEXT_PUBLIC_API_KEY}`;
+    const api_key = "api_key=4f298a53e552283bee957836a529baec";
     const api_database = "https://api.themoviedb.org/3";
     const api_top_rated = "/movie/top_rated?&";
     const api_popular = "/movie/popular?&";
