@@ -65,7 +65,7 @@ const MoviePage: React.FC = () => {
   const [firstCharacter, setFirstCharacter] = useState<Character | null>(null);
 
   const api_image = 'https://image.tmdb.org/t/p/original';
-  const api_key = `api_key=${process.env.NEXT_PUBLIC_API_KEY}`;
+  const api_key = "api_key=4f298a53e552283bee957836a529baec";
   const api_database = 'https://api.themoviedb.org/3';
 
   useEffect(() => {
